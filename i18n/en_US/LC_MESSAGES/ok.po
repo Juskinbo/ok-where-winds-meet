@@ -266,3 +266,21 @@ msgstr "Tool Key"
 
 msgid "In Game Hotkey for Skills"
 msgstr "In-Game Hotkeys for Skills"
+
+msgid "Game Check"
+msgstr "Game Check"
+
+msgid "Capture the current frame and report the game window resolution and status."
+msgstr "Capture the current frame and report the game window resolution and status."
+
+msgid "Wait For Game"
+msgstr "Wait For Game"
+
+msgid "Wait Timeout"
+msgstr "Wait Timeout"
+
+msgid "Keep waiting until a frame can be captured."
+msgstr "Keep waiting until a frame can be captured."
+
+msgid "Maximum seconds to wait before giving up."
+msgstr "Maximum seconds to wait before giving up."

@@ -1,6 +1,6 @@
 # 任务开发
 
-一次性任务示例位于 `src/tasks/MyOneTimeTask.py`，后台触发任务示例位于 `src/tasks/MyTriggerTask.py`。
+首个一次性任务示例位于 `src/tasks/GameCheckTask.py`，后台触发任务示例位于 `src/tasks/MyTriggerTask.py`。
 
 ## 创建任务
 

@@ -1,18 +1,11 @@
 # Quick Start
 
-## 1. Create a Repository From the Template
-
-Click [Use this template](https://github.com/ok-oldking/ok-script-app/generate) on GitHub, create your repository, and clone it:
+## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-github-name>/<your-repository>.git
-cd <your-repository>
+git clone https://github.com/Juskinbo/ok-where-winds-meet.git
+cd ok-where-winds-meet
 ```
-
-Choose either initialization path:
-
-- **Use an AI coding tool (recommended):** In Codex, enter `Use $initialize-ok-script-app to initialize this repository.` With another tool, ask it to read `.agents/skills/initialize-ok-script-app/SKILL.md` first. The initializer gathers the game, runtime targets, repositories, icons, and first-task requirements before editing files.
-- **Initialize manually:** Continue with this page and the linked guides.
 
 ## 2. Install Python 3.12 and Project Dependencies
 
@@ -55,10 +48,10 @@ exists.
 
 Administrator privileges are normally unnecessary. If the target game runs as administrator, launch the automation app at the same privilege level or capture and input may not work.
 
-## 3. Initialize the App
+## 3. Use and Verify
 
-1. Set the application identity, runtime targets, icons, and update repository in [App configuration](configuration.md).
-2. Create and register the first task with [Task development](tasks.md).
+1. Confirm the Windows runtime target, icons, and update repository in [App configuration](configuration.md).
+2. Create and register tasks with [Task development](tasks.md).
 3. Start Debug mode:
 
 ```powershell

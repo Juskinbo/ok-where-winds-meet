@@ -266,3 +266,21 @@ msgstr "工具按键"
 
 msgid "In Game Hotkey for Skills"
 msgstr "游戏内技能快捷键"
+
+msgid "Game Check"
+msgstr "游戏检测"
+
+msgid "Capture the current frame and report the game window resolution and status."
+msgstr "截取当前画面并报告游戏窗口的分辨率和状态。"
+
+msgid "Wait For Game"
+msgstr "等待游戏"
+
+msgid "Wait Timeout"
+msgstr "等待超时"
+
+msgid "Keep waiting until a frame can be captured."
+msgstr "持续等待直到能够截取到画面。"
+
+msgid "Maximum seconds to wait before giving up."
+msgstr "放弃前等待的最长秒数。"

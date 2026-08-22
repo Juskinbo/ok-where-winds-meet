@@ -50,7 +50,7 @@ Replace `icons/icon.png` and `icons/icon.ico`. Keeping the filenames avoids extr
 
 ## Update Repositories
 
-Edit the app name, profile names, and `git_url` values in `pyappify.yml`:
+`pyappify.yml` currently points to the source repository `https://github.com/Juskinbo/ok-where-winds-meet.git` as the update source:
 
 - Use a separate lightweight update repository for production.
 - The source repository can be used during early testing.

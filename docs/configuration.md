@@ -50,7 +50,7 @@ profile，然后重新编译对应的 `requirements.txt` 或 `requirements-web.t
 
 ## 更新仓库
 
-修改 `pyappify.yml` 中应用名称、profile 名称和 `git_url`：
+`pyappify.yml` 中当前使用源码仓库 `https://github.com/Juskinbo/ok-where-winds-meet.git` 作为更新源：
 
 - 正式发布建议使用独立的轻量更新仓库。
 - 前期测试可以直接使用源码仓库。

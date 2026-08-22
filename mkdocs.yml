@@ -1,7 +1,7 @@
-site_name: ok-script-app
-site_description: Build Windows, Android emulator, and browser automation apps with ok-script.
-repo_name: ok-oldking/ok-script-app
-repo_url: https://github.com/ok-oldking/ok-script-app
+site_name: ok-where-winds-meet
+site_description: 燕云十六声 Windows automation app built with ok-script.
+repo_name: Juskinbo/ok-where-winds-meet
+repo_url: https://github.com/Juskinbo/ok-where-winds-meet
 edit_uri: edit/master/docs/
 
 docs_dir: docs

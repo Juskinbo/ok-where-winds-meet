@@ -1,15 +1,13 @@
-# ok-script-app
+# ok-where-winds-meet
 
 [中文](../index.md)
 
-ok-script-app is a Python automation project template built on [ok-script](https://github.com/ok-oldking/ok-script), for native Windows games, Android emulators, and browser games.
-
-It is not a finished automation tool for a specific game. The template includes a runnable GUI, task and configuration-widget examples, OCR, template matching, tests, i18n, EXE packaging, and update/release configuration.
+ok-where-winds-meet is a Windows automation app for Where Winds Meet (《燕云十六声》) built on [ok-script](https://github.com/ok-oldking/ok-script).
 
 ## Start Here
 
-1. Create and initialize a repository with the [Quick start](getting-started.md).
-2. Select at least one runtime target in [App configuration](configuration.md).
+1. Install dependencies and run the project with the [Quick start](getting-started.md).
+2. Confirm the Windows runtime target and update repository in [App configuration](configuration.md).
 3. Create and register the first task with [Task development](tasks.md).
 4. Build an EXE with [Packaging and release](release.md).
 
@@ -31,7 +29,7 @@ It is not a finished automation tool for a specific game. The template includes 
 
 ## Included
 
-- `MyOneTimeTask` and `MyTriggerTask` examples.
+- `GameCheckTask` first diagnostic task example.
 - Drop-down, boolean, numeric, text, list, multi-selection, file, global configuration, and button widgets.
 - OCR, relative-region recognition, and template matching examples.
 - `ConfigOption` global configuration and `TaskTestCase` test examples.
