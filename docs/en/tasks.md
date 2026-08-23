@@ -1,12 +1,9 @@
 # Task Development
 
-The first one-time task example is `src/tasks/GameCheckTask.py`; the background trigger example is `src/tasks/MyTriggerTask.py`.
-
 ## Create a Task
 
 - Inherit from `BaseTask` for a task that runs when the user starts it.
 - Inherit from `TriggerTask` for periodic background checks.
-- Put shared behavior in `src/tasks/MyBaseTask.py`.
 
 Task classes typically set their name, description, defaults, and widgets in `__init__()`, then implement automation in `run()`.
 

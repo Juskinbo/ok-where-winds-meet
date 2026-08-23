@@ -29,10 +29,8 @@ ok-where-winds-meet 是一个基于 [ok-script](https://github.com/ok-oldking/ok
 
 ## 主要内容
 
-- `GameCheckTask` 首个诊断任务示例。
 - 下拉框、布尔值、数值、文本、列表、多选、文件选择、全局配置和按钮组等配置控件。
-- OCR、相对区域识别和模板匹配示例。
-- `ConfigOption` 全局配置和 `TaskTestCase` 自动化测试示例。
+- OCR、相对区域识别和模板匹配。
 - gettext i18n 翻译文件和编译产物。
 - PyAppify 和 GitHub Actions 打包发布配置。
 

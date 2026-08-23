@@ -1,7 +1,6 @@
 import os
 
 import numpy as np
-from ok import ConfigOption
 
 version = "dev"
 #不需要修改version, Github Action打包会自动修改
@@ -18,10 +17,6 @@ gui_config = {
 }
 if gui_config['type'] == 'web':
     gui_config['launch_mode'] = 'pywebview'
-
-key_config_option = ConfigOption('Game Hotkey Config', { #全局配置示例
-}, description='In Game Hotkey for Skills')
-
 
 def make_bottom_right_black(frame): #可选. 某些游戏截图时遮挡UID使用
     """
@@ -61,7 +56,6 @@ config = {
     'debug': False,  # Optional, default: False
     'gui': gui_config,
     'config_folder': 'configs', #最好不要修改
-    'global_configs': [key_config_option],
     'screenshot_processor': make_bottom_right_black, # 在截图的时候对frame进行修改, 可选
     'gui_icon': 'icons/icon.png', #窗口图标, 最好不需要修改文件名
     'wait_until_before_delay': 0,
@@ -116,7 +110,7 @@ config = {
     'version': version, #版本
     'my_app': ['src.globals', 'Globals'], #可选. 全局单例对象, 可以存放加载的模型, 使用og.my_app调用
     'onetime_tasks': [  # 用户点击触发的任务
-        ["src.tasks.GameCheckTask", "GameCheckTask"],
+        ["src.tasks.AutoPoison", "AutoPoison"],
         ["ok", "DiagnosisTask"],
     ],
 }

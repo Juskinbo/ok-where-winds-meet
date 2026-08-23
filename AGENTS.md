@@ -24,7 +24,7 @@ Game-automation app built on the [ok-script](https://github.com/ok-oldking/ok-sc
 ## Architecture
 
 - `src/config.py` holds the single app `config` dict: runtime target (`windows`/`adb`/`browser`), capture/interaction methods, `supported_resolution`, `gui_title`, `links`, and task registration. `windows.exe` is fixed to `yysls.exe`.
-- Tasks are the unit of work. One-time tasks extend `BaseTask`; background tasks extend `TriggerTask`; shared helpers go in `src/tasks/MyBaseTask.py` (the project base — prefer it over `BaseTask`).
+- Tasks are the unit of work. One-time tasks extend `BaseTask`; background tasks extend `TriggerTask`.
 - Register a task by adding `["src.tasks.ModuleName", "ClassName"]` to `onetime_tasks` or `trigger_tasks` in `src/config.py`. `custom_tasks` is enabled, so users can also author scripts in the gitignored `ok_tasks/` dir.
 - Task API: set `name`/`description`/`default_config`/`config_description`/`config_type` in `__init__` (call `super().__init__` first); implement `run()`. Use `self.ocr`, `self.find_one`, `self.wait_until`, `self.next_frame`, `self.click_box`, `self.info_set`, `self.log_info(notify=True)`.
 

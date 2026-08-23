@@ -29,10 +29,8 @@ ok-where-winds-meet is a Windows automation app for Where Winds Meet (《燕云�
 
 ## Included
 
-- `GameCheckTask` first diagnostic task example.
 - Drop-down, boolean, numeric, text, list, multi-selection, file, global configuration, and button widgets.
-- OCR, relative-region recognition, and template matching examples.
-- `ConfigOption` global configuration and `TaskTestCase` test examples.
+- OCR, relative-region recognition, and template matching.
 - gettext i18n sources and compiled catalogs.
 - PyAppify and GitHub Actions packaging/release configuration.
 
